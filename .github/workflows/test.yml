@@ -22,4 +22,4 @@ jobs:
           java-version: ${{ matrix.java-version }}
           distribution: "temurin"
       - run: pip install -r requirements.txt
-      - run: pytest
+      - run: pytest -vv
