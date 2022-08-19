@@ -23,7 +23,6 @@ def test_automatic_eyes_universal_termination_on_python_termination(reason):
 
 
 @pytest.mark.parametrize("reason", ["normal"])
-@pytest.mark.skip
 def test_parallel_eyes_universal_termination_on_python_termination(reason):
     processes = []
     for _ in range(2):
